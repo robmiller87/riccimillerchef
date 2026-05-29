@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ricci Miller | Private Chef</title>
+  <meta name="description" content="Ricci Miller is a private chef creating bespoke dining experiences across Liverpool, Chester, the Wirral and Northwest England." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ricci Miller home">
+      <span>Ricci Miller</span>
+      <small>Private Chef</small>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="about.html">About</a>
+      <a href="#experiences">Experiences</a>
+      <a class="nav-cta" href="mailto:hello@riccimiller.com?subject=Private%20chef%20enquiry">Enquire</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Private dining • Events • Bespoke menus</p>
+        <h1>Bespoke dining experiences, tailored to you.</h1>
+        <p class="lead">Ricci Miller creates personal, discreet private chef experiences across Liverpool, Chester, the Wirral and Northwest England.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:hello@riccimiller.com?subject=Private%20chef%20enquiry">Plan an experience</a>
+          <a class="button ghost" href="about.html">Meet Ricci</a>
+        </div>
+      </div>
+      <figure class="hero-card" aria-label="Ricci Miller Private Chef brand artwork">
+        <img src="assets/ricci-miller-private-chef.jpg" alt="Ricci Miller Private Chef — bespoke dining experiences tailored to you" />
+      </figure>
+    </section>
+
+    <section class="intro panel">
+      <p class="section-kicker">Passion. Precision. Flavour.</p>
+      <h2>Restaurant-level food with the privacy and ease of your own space.</h2>
+      <p>From intimate celebrations to private dining events, each menu is shaped around the occasion, the guests and the atmosphere you want to create.</p>
+    </section>
+
+    <section id="experiences" class="cards" aria-label="Private chef services">
+      <article>
+        <span>01</span>
+        <h3>Private dining</h3>
+        <p>Multi-course menus for evenings at home, special dates and small groups.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>Events & celebrations</h3>
+        <p>Memorable food for birthdays, family gatherings and milestone occasions.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>Bespoke menus</h3>
+        <p>Seasonal dishes tailored to your tastes, dietary needs and preferred style.</p>
+      </article>
+      <article>
+        <span>04</span>
+        <h3>Personal service</h3>
+        <p>Professional, discreet support from first conversation through to final plate.</p>
+      </article>
+    </section>
+
+    <section class="service-area">
+      <p>Serving Liverpool + Chester • The Wirral • Northwest England</p>
+    </section>
+
+    <section class="cta panel">
+      <p class="section-kicker">Now taking enquiries</p>
+      <h2>Tell Ricci what you’re planning.</h2>
+      <p>Share the date, location, guest count and style of food you have in mind.</p>
+      <a class="button primary" href="mailto:hello@riccimiller.com?subject=Private%20chef%20enquiry">hello@riccimiller.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Ricci Miller. Private Chef.</p>
+    <p>riccimiller.com</p>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
